@@ -16,6 +16,7 @@ let valueInNumber=Number(score) //converted in number
 let isLoggedIn = ""
 
 let booleanIsLoggedIn=Boolean(isLoggedIn) // to convert in boolean 
+
 // console.log(booleanIsLoggedIn)
 
 // 1 => true, 0 => false
@@ -24,6 +25,6 @@ let booleanIsLoggedIn=Boolean(isLoggedIn) // to convert in boolean
 
 let someNumber=33
 
-let stringNumber=String(someNumber)
+let stringNumber=String(someNumber) // to convert in string
 console.log(stringNumber)
-console.log(typeof stringNumber)
+console.log(typeof stringNumber) // to check whether that number really converted in string or not 
