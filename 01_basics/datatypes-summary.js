@@ -38,3 +38,40 @@ console.log(typeof myFunction);
 // link to study
 
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// ***********************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+// In stack the copy value is passed (pass by value) whereas in heap the original value is passed(pass by reference)
+
+let myYoutubeName = "deepakkumardotcom"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+// above two console statement print the different as copy of the value is passed so it will change the copied value of variable but it will not change the original value of the variable so this is called pass by value
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "deepak@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+// above two console statement print the same as original value is passed so it will change the original value of the variable and so this is called pass by reference. 
+
+
+
+
+
